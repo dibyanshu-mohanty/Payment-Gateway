@@ -124,7 +124,7 @@ h1 {
             background-repeat: no-repeat;
             background-size:cover;
         }
-        h1{
+        .container{
           margin-top:40px;
         }
 
