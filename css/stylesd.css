@@ -50,10 +50,11 @@ h3{
 @media (max-width: 500px) {
   .navbar{
     position: absolute;
-    display: block;
+    
   }
   .navbar a{
     color: black;
+    display:block;
   }
   .middle{
     margin-left: 40px;
