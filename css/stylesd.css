@@ -68,7 +68,7 @@ h3{
     
   }
 }
-@media (max-width: 952px) and (min-width: 500px) {
+@media (max-width: 1200px) and (min-width: 500px) {
   .navbar{
     position: absolute;
   }
