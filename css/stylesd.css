@@ -63,6 +63,7 @@ h3{
   body{
 
     background-size: cover;
+    background-repeat: repeat-y;
     
   }
 }
