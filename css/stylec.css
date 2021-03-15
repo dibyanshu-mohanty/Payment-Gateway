@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url("https://www.wallpapertip.com/wmimgs/65-651902_contact-us-light-background.jpg");
+  background-image: url("https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8Y29udGFjdCUyMHVzfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
   background-position: center;
   background-size: cover;
 }
@@ -31,21 +31,21 @@ body {
 }
 
 h1 {
-  padding-top: 200px;
+  padding-top: 160px;
   margin-top: 0;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   text-align: center;
   font-family: 'Ranchers', cursive;
   font-size: 4rem;
-  color: #ec4646;
+  color: black;
 }
 
 
 .Text{
   background: transparent;
-  color: black;
+  color: white;
   opacity: 0.8;
-  font-size: 16px;
+  font-size: 20px;
   font-family: monospace;
 }
 .forms{
@@ -100,7 +100,7 @@ h1 {
         .contact{
             width: 50px;
             padding-bottom: 12px;
-            margin-left: 100px;
+            margin-left: 50px;
 
           }
         .navbar{
@@ -115,10 +115,10 @@ h1 {
           text-align: center;
         }
         .forms{
-           margin-left: 60px;
+           margin-left: 30px;
         }
         .Text{
-            width: 200px;
+            width: 180px;
         }
         body{
             background-repeat: no-repeat;
