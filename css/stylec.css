@@ -98,9 +98,10 @@ h1 {
 
 @media (max-width: 500px) {
         .contact{
+            display:flex;
             width: 50px;
             padding-bottom: 12px;
-            margin-left: 50px;
+            margin-left: 100px;
 
           }
         .navbar{
@@ -115,7 +116,7 @@ h1 {
           text-align: center;
         }
         .forms{
-           margin-left: 30px;
+           margin-left: 80px;
         }
         .Text{
             width: 180px;
@@ -130,7 +131,7 @@ h1 {
         .contact{
             width: 50px;
             padding-bottom: 12px;
-            margin-left: 120px;
+            margin-left: 170px;
 
           }
         .navbar{
@@ -142,7 +143,7 @@ h1 {
           text-align: center;
         }
         .forms{
-           margin-left: 100px;
+           margin-left: 150px;
         }
         .Text{
             width: 500px;
