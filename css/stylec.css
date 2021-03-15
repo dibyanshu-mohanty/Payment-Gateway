@@ -105,7 +105,10 @@ h1 {
           }
         .navbar{
           position: absolute;
-          display: block;
+          
+        }
+        .navbar a{
+          display:block;
         }
         .Pg1{
           font-size: 16px;
