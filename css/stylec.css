@@ -124,10 +124,7 @@ h1 {
             background-repeat: no-repeat;
             background-size:cover;
         }
-        .container{
-          margin-top:40px;
-        }
-
+        
 }
 @media (max-width: 952px) and (min-width:500px) {
         .contact{
