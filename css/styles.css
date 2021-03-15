@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  margin: 0;
+  overflow: hidden;
+  padding: 6px 24px;
+  text-align: left;
+  position: fixed;
+}
+
+.navbar a {
+  font: sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 30px;
+}
+
+.navbar a:hover {
+  background-color: #c0e218;
+  color: white;
+}
+
+.topbar {
+  background-image: url("https://images.unsplash.com/photo-1494832944834-a08818c634b0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG92ZXJ0eXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: 100%;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+
+h1 {
+  padding-top: 250px;
+  margin: 0;
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.btn {
+
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #c70039;
+}
+
+.btn:hover {
+  background-color: #c70039;
+  color: white;
+}
+
+.main {
+  padding-top: 180px;
+  padding-left: 630px;
+}
+
+h4 {
+  margin-top: 200px;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  position:relative;
+  top: 110px;
+
+
+}
+
+.pg {
+  color: white;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+
+@media (max-width:400px) {
+  .main{
+    padding-left: 70px;
+  }
+  .topbar{
+    background-image: url("https://images.unsplash.com/photo-1518949142393-f1d68174c92a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9vcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+  .navbar{
+    position: absolute;
+    display: block;
+
+  }
+  h3{
+      text-align: center;
+  }
+
+
+}
+@media (max-width:852px) and (min-width:500px) {
+  .main{
+    padding-left: 250px;
+  }
+  .topbar{
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+  .navbar{
+    position: absolute;
+    display: block;
+
+  }
+}

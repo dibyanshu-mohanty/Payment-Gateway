@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  background-image: url("https://www.wallpapertip.com/wmimgs/65-651902_contact-us-light-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.navbar {
+  margin: 0;
+  overflow: hidden;
+  padding: 6px 24px;
+  text-align: left;
+  position: fixed;
+}
+
+.navbar a {
+  font: sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 18px 30px;
+}
+
+.navbar a:hover {
+  background-color: #0e49b5;
+  color: white;
+}
+
+h1 {
+  padding-top: 200px;
+  margin-top: 0;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: 'Ranchers', cursive;
+  font-size: 4rem;
+  color: #ec4646;
+}
+
+
+.Text{
+  background: transparent;
+  color: black;
+  opacity: 0.8;
+  font-size: 16px;
+  font-family: monospace;
+}
+.forms{
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+
+}
+.Pg1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  color: #0a043c;
+  padding-bottom: 30px;
+
+}
+.image{
+  width: 60px;
+  padding-bottom: 25px;
+}
+
+.image2{
+  width: 50px;
+  padding-bottom: 35px;
+}
+.contact{
+  display: inline-flex;
+  margin: 80px 600px;
+
+}
+.btn1{
+  border: none;
+  text-align: center;
+  font-size: 10px;
+  padding: 7px 15px;
+  text-decoration: none;
+  margin: 4px 10px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.btn1{
+  background-color: #edffec;
+  color: #393232;
+  border: 1px solid #fa1e0e;
+}
+
+.btn1:hover{
+  background-color: #8ac4d0;
+  color: #393232;
+}
+
+@media (max-width: 500px) {
+        .contact{
+            width: 50px;
+            padding-bottom: 12px;
+            margin-left: 300px;
+
+          }
+        .navbar{
+          position: absolute;
+          display: block;
+        }
+        .Pg1{
+          font-size: 16px;
+          text-align: center;
+        }
+        .forms{
+           margin-left: 60px;
+        }
+        .Text{
+            width: 250px;
+        }
+        body{
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+        }
+
+}
+@media (max-width: 952px) and (min-width:500px) {
+        .contact{
+            width: 50px;
+            padding-bottom: 12px;
+            margin-left: 400px;
+
+          }
+        .navbar{
+          position: absolute;
+          display: block;
+        }
+        .Pg1{
+          font-size: 22px;
+          text-align: center;
+        }
+        .forms{
+           margin-left: 100px;
+        }
+        .Text{
+            width: 500px;
+        }
+        body{
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+        }
+
+}
