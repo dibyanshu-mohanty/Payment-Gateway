@@ -100,7 +100,7 @@ h1 {
         .contact{
             width: 50px;
             padding-bottom: 12px;
-            margin-left: 60px;
+            margin-left: 80px;
 
           }
         .navbar{
@@ -119,7 +119,7 @@ h1 {
         }
         body{
             background-repeat: no-repeat;
-            background-size:100% 100%;
+            background-size:cover;
         }
 
 }
@@ -146,7 +146,7 @@ h1 {
         }
         body{
             background-repeat: no-repeat;
-            background-size:100% 100%;
+            background-size:cover;
         }
 
 }
