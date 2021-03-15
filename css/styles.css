@@ -110,8 +110,11 @@ h3 {
   }
   .navbar{
     position: absolute;
-    display: block;
+    
 
+  }
+  .navbar a{
+    display:block;
   }
   h3{
       text-align: center;
