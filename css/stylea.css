@@ -51,7 +51,10 @@ margin-top: 0;
 @media (max-width: 952px) {
   .navbar{
     position: absolute;
-    display: block;
+    
+  }
+  .navbar a{
+    display:block;  
   }
   .pg{
     font-size: 18px;
