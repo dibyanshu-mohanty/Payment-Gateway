@@ -129,12 +129,13 @@ h3 {
   .topbar{
 
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 
   }
   .navbar{
     position: absolute;
-    display: block;
-
+    }
+  .btn{
+    margin-left: 400px;
   }
 }
