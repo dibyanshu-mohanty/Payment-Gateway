@@ -47,8 +47,7 @@ h3{
   font-family: 'Blinker', sans-serif;
   color: #440a67
 }
-
-@media (max-width: 952px) {
+@media (max-width: 500px) {
   .navbar{
     position: absolute;
   }
@@ -57,6 +56,25 @@ h3{
   }
   .middle{
     margin-left: 40px;
+
+  }
+
+  body{
+
+    background-size: cover;
+    background-repeat: repeat-y;
+    
+  }
+}
+@media (max-width: 952px) and (min-width: 500px) {
+  .navbar{
+    position: absolute;
+  }
+  .navbar a{
+    color: black;
+  }
+  .middle{
+    margin-left: 200px;
 
   }
 
